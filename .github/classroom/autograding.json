@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "q1 test",
+      "setup": "./setup.sh",
+      "run": "./q1.sh",
+      "input": "",
+      "output": "75849",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "q2",
+      "setup": "./setup.sh",
+      "run": "./q2.sh",
+      "input": "",
+      "output": "10478",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "q3 test - closed airports in AQ",
+      "setup": "./setup.sh",
+      "run": "./q3.sh",
+      "input": "",
+      "output": "5",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "q4",
+      "setup": "./setup.sh",
+      "run": "./q4.sh",
+      "input": "",
+      "output": "Mount Everest Base Camp Heliport.+17372",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "q5",
+      "setup": "./setup.sh",
+      "run": "./q5.sh",
+      "input": "",
+      "output": "30234 US",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
